@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>P2P Chat</title>
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="/chat.js"></script>
+</head>
+<body>
+<div id="chat">
+    <div id="chatsContent"></div>
+    <div>
+        Please Enter the Chat Content:
+        <input type="text" id="content" placeholder="Chat Content">
+        Target User:
+        <input type="text" id="to" placeholder="Target User">
+        <button id="send" type="button">Send</button>
+    </div>
+</div>
+</body>
+</html>
